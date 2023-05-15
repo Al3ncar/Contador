@@ -42,7 +42,13 @@ export default class App extends Component {
     this.setState({ number: this.state.number + 1 })
   }
 
+  decrease = () => {
+    this.setState({ number: this.state.number - 1  })
+  }
 
+  multiply = () => {
+    this.setState({ number: this.state.number * 2})
+  }
   render(){
     return(
       <section>
@@ -53,7 +59,7 @@ export default class App extends Component {
           <div>
             <button onClick={this.Add}>Somar</button>
             <button onClick={this.decrease}>Diminuir</button>
-            <button>x2</button>
+            <button onClick={this.multiply}>x2</button>
           </div>
         </div>
       </section>
