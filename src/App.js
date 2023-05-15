@@ -21,6 +21,17 @@ export default class App extends Component {
   render(){
     return(
       <section className='calc' >
+        <div className="bar-cont">
+          <div class="bar-aba">
+            <div className="bar-pagTitle"> CONTADOR </div>
+            <div className="bar-top"> 
+              <span className="minimixe"></span>
+              <span className="aba"></span>
+              <span className="close"></span>
+            </div>
+          </div>
+          <div className="bar-bottom"></div>
+        </div>
         <div className='calc-container'>
           <div  className='result'>
             <h1>{this.state.number}</h1>
@@ -38,8 +49,8 @@ export default class App extends Component {
 }
 
 
-/* 
-  // -------- Codigo Antigo ------------- //
+
+/*   // -------- Codigo Antigo ------------- //
   
     import React, {Component} from 'react'
     import './App.css' 
@@ -74,4 +85,4 @@ export default class App extends Component {
         )
       }
     }
-*/
+ */
