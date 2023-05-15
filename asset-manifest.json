@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Al3ncar/Contador/static/css/main.18516feb.css",
+    "main.js": "/Al3ncar/Contador/static/js/main.b9d4f3e1.js",
+    "index.html": "/Al3ncar/Contador/index.html",
+    "main.18516feb.css.map": "/Al3ncar/Contador/static/css/main.18516feb.css.map",
+    "main.b9d4f3e1.js.map": "/Al3ncar/Contador/static/js/main.b9d4f3e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18516feb.css",
+    "static/js/main.b9d4f3e1.js"
+  ]
+}
