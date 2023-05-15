@@ -17,14 +17,13 @@
   width: 50%;
   height: 50%;
   border-radius: 1.5vw;
-  box-shadow: 2vw 2vh 2vw;
+  box-shadow: 0vw 0vh 3vw 1vw;
   padding: 3%;
   background-color: rgb(170, 169, 169);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
 .result{
@@ -43,10 +42,10 @@
 }
 
 button{
-  width: 50%;
-  padding: 8% 0;
+  width: 25%;
+  padding: 2% 0;
   border: none;
   border-radius: 1vw;
   margin: 3%;
-  font-size: 3vw;
+  font-size: 1.5vw;
 }
